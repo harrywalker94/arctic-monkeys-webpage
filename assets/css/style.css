@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Geo: 100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700');
+
+/*-Navbar*/
+.logo {
+  font-family: "Geo", sans-serif;
+  font-weight: 200;
+  font-size: 55px;
+  margin-top: 10px;
+  color: #black;
+  display: inline;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navbar-nav {
+  font-family: "Geo", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  color: #black;
+  margin-left: 200px;
+}
+.navbar-nav li a {
+  transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+
+/* Icon Bar */
+.icon-bar {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Social Icon Bar */
+.icon-bar li a {
+  float: left;
+  padding: 12px 0;
+  color: white;
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+.icon-bar li a i {
+  background-color: #3B3A38;
+  margin-right: 0px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+}
+
+.icon-bar li:nth-child(1) a i:hover {
+  background-color: #7D7D7D;
+}
+
+.icon-bar li:nth-child(2) a i:hover {
+  background-color: #1db954;
+}
+
+.icon-bar li:nth-child(3) a i:hover {
+  background-color: #c4302b;
+}
+
+.icon-bar li:nth-child(4) a i:hover {
+  background-color: #fb3958;
+}
+
+.icon-bar li:nth-child(5) a i:hover {
+  background-color: #3B5998;
+}
+
+.icon-bar li:nth-child(6) a i:hover {
+  background-color: #38A1F3;
+}
+
+.container-fluid {
+  position: relative;
+  text-align: center;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+
+.hvr-sweep-to-bottom:before {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#slides {
+  margin-top: -20px;
+}
+
+.text{
+	width:340px;
+	height:217px;
+	background:#FFF;
+	opacity:0;
+}
+
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: 550px;
+}
+
+.carousel-inner .carousel-item img:hover {
+opacity: 0.5;
+transition: all 0.8s ease-in-out;
+-moz-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  padding-top: 30%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  font-family: "Geo", sans-serif;
+  color: #eee9e9;
+  text-align: center;
+  text-transform: uppercase;
+}
+.carousel-text {
+  font-family: "Geo", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  color: #eee9e9;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
+.carousel-caption a button {
+  transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+<!--index.html-->
+/*--Main Band image--*/
+.main {
+  background: url(../images/arcticmonkeys9.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+/*--Main Styling--*/
+.main-header {
+  font-family: "Geo", sans-serif;
+  font-weight: 800;
+  color: #eee9e9;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  padding-top: 30%;
+  transform: translate(-50%, -50%);
+}
+.main-header a {
+text-decoration: none;
+color: inherit;
+}
+.main-header a hover{
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  }
+.main-header2 {
+  font-family: "Geo", sans-serif;
+  font-weight: 800;
+  color: black;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  padding-top: 30%;
+  transform: translate(-50%, -50%);
+}
+.main-header2 a {
+  text-decoration: none;
+   color: inherit;
+  }
+  .main-header2 a hover{
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    }
+   
+/*--Tour--*/
+.tour {
+    background: url(../images/arcticmonkeys7.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 550px;
+}
+.tour:hover {
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+/*--Gallery--*/
+.gallery {
+  background: url(../images/arcticmonkeys6.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 560px;
+}
+  .gallery:hover {
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+  /*--Music--*/
+.music {
+  background: url(../images/arcticmonkeys4.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 560px;
+}
+.music:hover {
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+/*--News--*/
+.news {
+  background: url(../images/arcticmonkeys2.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 560px;
+}
+.news:hover {
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+/*--Jumbotron--*/
+.jumbotron {
+width: 100%;
+height: 300px;
+font-family: "Geo", sans-serif;
+font-weight: 800;
+color: black;
+text-align: left;
+text-transform: uppercase;
+margin-bottom: 0px;
+}
+
+/*--News.html--*/
+.news-page {
+  background: url(../images/arcticmonkeys2.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 560px;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 30px 0 30px 110px;
+  width: 250px;
+  height: 450px;
+}
+.card-body img {
+width: 150px;
+height: 150px;
+}
+
+
+/*--------------------------------------------Colors*/
+.bg-colour {
+  background-color: #c8c8c8;
+}
+
+
+
+
+
+/*
+Extra-small (xs) devices (portrait phones, less than 576px)
+- Requires no media queries since this is Boostrap default
+
+Small (sm) devices (landscape phones, 576px and above)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and above)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and above)
+@media (min-width: 992px) { ... }
+
+Extra-large (xl) devices (large desktops, 1200px and above)
+@media (min-width: 1200px) { ... }
+*/
