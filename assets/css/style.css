@@ -5,8 +5,7 @@
   font-family: "Geo", sans-serif;
   font-weight: 200;
   font-size: 55px;
-  margin-top: 10px;
-  color: #black;
+  color: black;
   display: inline;
   text-align: center;
   text-transform: uppercase;
@@ -16,7 +15,7 @@
   font-family: "Geo", sans-serif;
   font-weight: 200;
   font-size: 25px;
-  color: #black;
+  color: black;
   margin-left: 200px;
 }
 .navbar-nav li a {
@@ -260,13 +259,14 @@ color: inherit;
 /*--Jumbotron--*/
 .jumbotron {
 width: 100%;
-height: 300px;
+height: 200px;
 font-family: "Geo", sans-serif;
 font-weight: 800;
 color: black;
 text-align: left;
 text-transform: uppercase;
 margin-bottom: 0px;
+margin-top: 0;
 }
 
 /*--News.html--*/
@@ -276,15 +276,25 @@ margin-bottom: 0px;
   background-attachment: fixed;
   height: 560px;
 }
+
 .card {
-  background-color: rgba(0, 0, 0, 0.2);
-  margin: 30px 0 30px 110px;
-  width: 250px;
-  height: 450px;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  padding: 10px;
+  font-family: "Geo", sans-serif;
 }
-.card-body img {
-width: 150px;
-height: 150px;
+
+.card img {
+  width: 250px;
+  height: 180px;
+}
+.card-body {
+  width: 300px;
+  height: 200px;
+  border-radius: 0;
 }
 
 
@@ -293,7 +303,28 @@ height: 150px;
   background-color: #c8c8c8;
 }
 
+.form-group {
+height: 430px;
+font-family: "Geo", sans-serif;
+font-weight: 800;
+font-size: 40px;
+color: black;
+text-align: left;
+text-transform: uppercase;
+margin-top: 0;
+}
+.form-control {
+  text-align: center;
+}
 
+@media screen and (max-width: 991px) {
+  .card {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+}
 
 
 
