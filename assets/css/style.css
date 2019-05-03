@@ -85,9 +85,6 @@
   padding-right: 0px;
   padding-left: 0px;
 }
-
-
-
 .hvr-sweep-to-bottom:before {
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -144,7 +141,7 @@ transition: all 0.8s ease-in-out;
   -webkit-transition: all 0.8s ease-in-out;
   -o-transition: all 0.8s ease-in-out;
 }
-<!--index.html-->
+/*--index.html--*/
 /*--Main Band image--*/
 .main {
   background: url(../images/arcticmonkeys9.jpg) no-repeat center;
@@ -280,29 +277,123 @@ margin-top: 0;
 .card {
   display: inline-block;
   margin-bottom: 20px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 15px;
-  padding: 10px;
+  padding: 5px;
   font-family: "Geo", sans-serif;
-}
-
-.card img {
-  width: 250px;
-  height: 180px;
+  border-width: 5px;
 }
 .card-body {
   width: 300px;
-  height: 200px;
+  height: 220px;
+}
+.card img {
+  width: 290px;
+  height: 190px;
+  border: solid #cacaca 3px;
+}
+.card-body h3 {
+  font-weight: bolder
+}
+.card-body p {
+font-size: 17px;
+}
+.card-body p a {
+  text-decoration: none;
+  color: red;
+  font-size: 25px;
+}
+.card-body p a:hover {
+  color: #cacaca;
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  .card {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    padding: 5px;
+    font-family: "Geo", sans-serif;
+    border-width: 5px;
+  }
+  
+  .card img {
+    width: 180px;
+    height: 120px;
+    border: solid #cacaca 3px;
+  }
+  .card-body {
+    width: 200px;
+    height: 175px;
+  }
+  .card-body h3 {
+    font-weight: bolder
+  }
+  .card-body p {
+  font-size: 14px;
+  }
+  .card-body p a {
+    text-decoration: none;
+    color: red;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .news-page {
+    background: url(../images/arcticmonkeys2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+  }
+  .card {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 15px;
+    padding: 5px;
+    font-family: "Geo", sans-serif;
+    border-width: 5px;
+  }
+  
+  .card img {
+    width: 300px;
+    height: 180px;
+    border: solid #cacaca 3px;
+  }
+  .card-body {
+    width: 310px;
+    height: 175px;
+  }
+  .card-body h3 {
+    font-weight: bolder
+  }
+  .card-body p {
+  font-size: 18px;
+
+  }
+  .card-body p a {
+    text-decoration: none;
+    color: red;
+  }
+}
+.btn {
+  max-width: 400px;
+  padding: 15px;
+  color: #fff; 
+  background-color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
   border-radius: 0;
-}
-
-
-/*--------------------------------------------Colors*/
-.bg-colour {
-  background-color: #c8c8c8;
-}
-
+  border-width: medium;
+  opacity: .8;
+  }
+  .btn:hover {
+      color: black;
+  }
 .form-group {
 height: 430px;
 font-family: "Geo", sans-serif;
@@ -315,15 +406,102 @@ margin-top: 0;
 }
 .form-control {
   text-align: center;
+  width: 350px;
+  display: inline-block;
 }
 
-@media screen and (max-width: 991px) {
-  .card {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
+/*--tour.html--*/
+.tour-page {
+  background: url(../images/arcticmonkeys7.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 560px;
+}
+.table {
+  border: solid #cacaca 4px;
+}
+.video {
+  border: solid #cacaca 4px;
+  width: 350px;
+  height: 300px;
+}
+.eu-tour {
+  font-family: "Geo", sans-serif;
+  font-weight: 800;
+  color: #3B3A38;
+}
+.table-data {
+  text-transform: uppercase;
+  font-family: "Geo", sans-serif;
+  font-size: 20px;
+}
+.table-head {
+  text-transform: uppercase;
+  font-family: "Geo", sans-serif;
+  font-size: 30px;
+}
+th {
+  text-align: left;
+}
+td {
+  text-align: left;
+}
+td a {
+  color: #FFF;
+}
+td a:hover {
+  color: #dcdcdc;
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .tour-page {
+    background: url(../images/arcticmonkeys7.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
   }
+  .table {
+    border: solid #cacaca 4px;
+  }
+  .video {
+    border: solid #cacaca 4px;
+    width: 350px;
+    height: 300px;
+  }
+  .eu-tour {
+    font-family: "Geo", sans-serif;
+    font-weight: 800;
+    color: #3B3A38;
+  }
+  .table-data {
+    text-transform: uppercase;
+    font-family: "Geo", sans-serif;
+    font-size: 16px;
+  }
+  .table-head {
+    text-transform: uppercase;
+    font-family: "Geo", sans-serif;
+    font-size: 30px;
+  }
+  th {
+    text-align: left;
+  }
+  td {
+    text-align: left;
+  }
+  td a {
+    color: #FFF;
+  }
+  td a:hover {
+    color: #dcdcdc;
+  }
+}
+
+/*--Gallery.html--*/
+.gallery-page {
+  background: url(../images/arcticmonkeys6.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 560px;
 }
 
 
