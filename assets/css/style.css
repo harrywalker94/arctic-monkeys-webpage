@@ -495,7 +495,6 @@ width: 100%;
       }
 }
 
-
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .gallery-page {
     background: url(../images/arcticmonkeys6.jpg) no-repeat center;
@@ -524,9 +523,6 @@ width: 100%;
         transform: scale(1.1);
       }
 }
-
-
-
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .gallery-page {
     background: url(../images/arcticmonkeys6.jpg) no-repeat center;
@@ -555,6 +551,113 @@ width: 100%;
         transform: scale(1.1);
       }
 }
+
+/*--Music.html--*/
+.music-page {
+  background: url(../images/arcticmonkeys4.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 560px;
+}
+
+.albums {
+  display: block;
+  padding: 20px 0 20px 160px;
+ 
+}
+.albums img {
+  border: solid #cacaca 4px;
+}
+.albums2 {
+  display: block;
+  padding: 20px 10px 20px 70px;
+ 
+}
+.albums2 img {
+  border: solid #cacaca 4px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+.music-page {
+  background: url(../images/arcticmonkeys4.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+.albums {
+  display: block;
+  padding: 10px 0 10px 80px;
+}
+.albums img {
+  border: solid #cacaca 4px;
+  width: 410px;
+  height: 350px;
+}
+.albums2 {
+  display: block;
+  padding: 10px 10px 10px 0px; 
+}
+.albums2 img {
+  border: solid #cacaca 4px;
+  width: 410px;
+  height: 350px;
+}
+}
+
+@media screen and (min-width: 577px) and (max-width: 769px) {
+  .music-page {
+    background: url(../images/arcticmonkeys4.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+  }
+  .albums {
+    display: block;
+    padding: 10px 0 10px 80px;
+  }
+  .albums img {
+    border: solid #cacaca 4px;
+    width: 310px;
+    height: 280px;
+  }
+  .albums2 {
+    display: block;
+    padding: 10px 10px 10px 0px; 
+  }
+  .albums2 img {
+    border: solid #cacaca 4px;
+    width: 310px;
+    height: 280px;
+  }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 577px) {
+  .music-page {
+    background: url(../images/arcticmonkeys4.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+  }
+  .albums {
+    display: inline-block;
+  }
+  .albums img {
+    border: solid #cacaca 4px;
+    width: 210px;
+    height: 200px;
+  }
+  .albums2 {
+    display: inline-block;
+    
+  }
+  .albums2 img {
+    border: solid #cacaca 4px;
+    width: 210px;
+    height: 200px;
+  }
+}
+
 /*
 Extra-small (xs) devices (portrait phones, less than 576px)
 - Requires no media queries since this is Boostrap default
