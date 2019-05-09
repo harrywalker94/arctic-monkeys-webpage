@@ -1,22 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Geo: 100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700');
 
+body {
+  background-color: #7D7D7D;
+}
+
 /*-Navbar*/
 .logo {
   font-family: "Geo", sans-serif;
   font-weight: 200;
-  font-size: 55px;
+  font-size: 52px;
   color: black;
   display: inline;
   text-align: center;
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 0px) and (max-width: 415px) {
+.logo {
+  font-family: "Geo", sans-serif;
+  font-weight: 200;
+  font-size: 35px;
+  color: black;
+  display: inline;
+  text-align: center;
+  text-transform: uppercase;
+}
+.navbar-toggler-icon {
+  width: 20px;
+  height: 30px;
+}
+}
 .navbar-nav {
   font-family: "Geo", sans-serif;
   font-weight: 200;
   font-size: 25px;
   color: black;
-  margin-left: 200px;
 }
 .navbar-nav li a {
   transition: all 0.8s ease-in-out;
@@ -24,7 +42,6 @@
   -webkit-transition: all 0.8s ease-in-out;
   -o-transition: all 0.8s ease-in-out;
 }
-
 /* Icon Bar */
 .icon-bar {
   width: 100%;
@@ -197,19 +214,183 @@ color: inherit;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
-/*--Jumbotron--*/
-.jumbotron {
-width: 100%;
-height: 200px;
-font-family: "Geo", sans-serif;
-font-weight: 800;
-color: black;
-text-align: left;
-text-transform: uppercase;
-margin-bottom: 0px;
-margin-top: 0;
+/*--Main Band image--*/
+.main {
+  background: url(../images/arcticmonkeys9.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+/*--Main Styling--*/
+.main-header {
+  font-family: "Geo", sans-serif;
+  font-weight: 800;
+  color: #eee9e9;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  padding-top: 30%;
+  transform: translate(-50%, -50%);
+}
+.main-header a {
+text-decoration: none;
+color: inherit;
+}
+.main-header a hover{
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  }
+.main-header2 {
+  font-family: "Geo", sans-serif;
+  font-weight: 800;
+  color: black;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  padding-top: 30%;
+  transform: translate(-50%, -50%);
+}
+.main-header2 a {
+  text-decoration: none;
+   color: inherit;
+  }
+  .main-header2 a hover{
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    }
+   
+/*--Tour--*/
+.tour {
+    background: url(../images/arcticmonkeys7.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 550px;
+}
+.tour:hover {
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+/*--Gallery--*/
+.gallery {
+  background: url(../images/arcticmonkeys6.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 560px;
+}
+  .gallery:hover {
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+  /*--Music--*/
+.music {
+  background: url(../images/arcticmonkeys4.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 560px;
+}
+.music:hover {
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+/*--News--*/
+.news {
+  background: url(../images/arcticmonkeys2.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 560px;
+}
+.news:hover {
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
+@media screen and (min-width: 0px) and (max-width: 577px) {
+  /*--Main image--*/
+  .main {
+    background: url(../images/arcticmonkeys9.jpg) no-repeat center;
+    background-size: auto;
+    background-attachment: fixed;
+    height: 250px;
+  }
+  /*--Tour--*/
+  .tour {
+      background: url(../images/arcticmonkeys7.jpg) no-repeat center;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 300px;
+  }
+  .tour:hover {
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+  /*--Gallery--*/
+  .gallery {
+    background: url(../images/arcticmonkeys6.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+  }
+    .gallery:hover {
+      opacity: 0.6;
+      transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+    }
+    /*--Music--*/
+  .music {
+    background: url(../images/arcticmonkeys4.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+  }
+  .music:hover {
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+  /*--News--*/
+  .news {
+    background: url(../images/arcticmonkeys2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+  }
+  .news:hover {
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+}
 /*--News.html--*/
 .news-page {
   background: url(../images/arcticmonkeys2.jpg) no-repeat center;
@@ -251,6 +432,18 @@ font-size: 17px;
 .card-body p a:hover {
   color: #cacaca;
 }
+/*--Jumbotron--*/
+.jumbotron {
+  width: 100%;
+  height: 200px;
+  font-family: "Geo", sans-serif;
+  font-weight: 800;
+  color: black;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-top: 0;
+  }
 
 @media screen and (min-width: 577px) and (max-width: 991px) {
   .card {
@@ -265,7 +458,7 @@ font-size: 17px;
   }
   
   .card img {
-    width: 180px;
+    width: 170px;
     height: 120px;
     border: solid #cacaca 3px;
   }
@@ -289,7 +482,7 @@ font-size: 17px;
     background: url(../images/arcticmonkeys2.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 300px;
+    height: 280px;
   }
   .card {
     display: inline-block;
@@ -303,19 +496,19 @@ font-size: 17px;
   }
   
   .card img {
-    width: 300px;
-    height: 180px;
+    width: 260px;
+    height: 160px;
     border: solid #cacaca 3px;
   }
   .card-body {
-    width: 310px;
+    width: 280px;
     height: 175px;
   }
   .card-body h3 {
     font-weight: bolder
   }
   .card-body p {
-  font-size: 18px;
+  font-size: 15px;
 
   }
   .card-body p a {
@@ -324,7 +517,7 @@ font-size: 17px;
   }
 }
 .btn {
-  max-width: 400px;
+  max-width: 200px;
   padding: 15px;
   color: #fff; 
   background-color: black;
@@ -350,7 +543,7 @@ margin-top: 0;
 }
 .form-control {
   text-align: center;
-  width: 350px;
+  width: 270px;
   display: inline-block;
 }
 
@@ -366,8 +559,9 @@ margin-top: 0;
 }
 .video {
   border: solid #cacaca 4px;
-  width: 350px;
-  height: 300px;
+  width: 320px;
+  height: 270px;
+ 
 }
 .eu-tour {
   font-family: "Geo", sans-serif;
@@ -396,7 +590,7 @@ td a {
 td a:hover {
   color: #dcdcdc;
 }
-@media screen and (min-width: 0px) and (max-width: 576px) {
+@media screen and (min-width: 321px) and (max-width: 576px) {
   .tour-page {
     background: url(../images/arcticmonkeys7.jpg) no-repeat center;
     background-size: cover;
@@ -405,11 +599,13 @@ td a:hover {
   }
   .table {
     border: solid #cacaca 4px;
+    width: 180px;
   }
   .video {
     border: solid #cacaca 4px;
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 210px;
+    margin-left: 15px;
   }
   .eu-tour {
     font-family: "Geo", sans-serif;
@@ -419,12 +615,12 @@ td a:hover {
   .table-data {
     text-transform: uppercase;
     font-family: "Geo", sans-serif;
-    font-size: 16px;
+    font-size: 12px;
   }
   .table-head {
     text-transform: uppercase;
     font-family: "Geo", sans-serif;
-    font-size: 30px;
+    font-size: 22px;
   }
   th {
     text-align: left;
@@ -439,6 +635,35 @@ td a:hover {
     color: #dcdcdc;
   }
 }
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .video {
+    border: solid #cacaca 4px;
+    width: 260px;
+    height: 170px;
+  }
+  .tour-page {
+    background: url(../images/arcticmonkeys7.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+  }
+  .table {
+    border: solid #cacaca 4px;
+    width: 200px;
+  }
+  .table-data {
+    text-transform: uppercase;
+    font-family: "Geo", sans-serif;
+    font-size: 12px;
+  }
+  .table-head {
+    text-transform: uppercase;
+    font-family: "Geo", sans-serif;
+    font-size: 24px;
+  }
+}
+
 
 /*--Gallery.html--*/
 .gallery-page {
@@ -458,9 +683,9 @@ width: 100%;
   font-size: 20px;
 }
 .zoom {
-  padding: 20px;
   transition: transform .5s; /* Animation */
-  margin: 0 auto;
+  margin: 10px;
+  border: solid #cacaca 4px;
 }
 .zoom:hover {
   transform: scale(1.1);
@@ -471,7 +696,7 @@ width: 100%;
     background: url(../images/arcticmonkeys6.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 480px;
+    height: 400px;
   }
   .carousel-item img {
     margin: auto;
@@ -484,17 +709,15 @@ width: 100%;
     font-size: 18px;
       }
       .zoom {
-        padding: 10px;
         transition: transform .5s; /* Animation */
-        margin: 0;
-        width: 300px;
-        height: 240px;
+        margin: 10px;
+        width: 260px;
+        height: 210px;
       }
       .zoom:hover {
         transform: scale(1.1);
       }
 }
-
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .gallery-page {
     background: url(../images/arcticmonkeys6.jpg) no-repeat center;
@@ -513,10 +736,9 @@ width: 100%;
     font-size: 18px;
       }
       .zoom {
-        padding: 15px;
         transition: transform .5s; /* Animation */
-        margin: 0;
-        width: 240px;
+        margin: 10px;
+        width: 230px;
         height: 190px;
       }
       .zoom:hover {
@@ -541,11 +763,10 @@ width: 100%;
     font-size: 14px;
       }
       .zoom {
-        padding-right: 15px;
         transition: transform .5s; /* Animation */
-        margin: 0;
-        width: 360px;
-        height: 310px;
+        margin: 10px;
+        width: 290px;
+        height: 260px;
       }
       .zoom:hover {
         transform: scale(1.1);
@@ -559,103 +780,39 @@ width: 100%;
   background-attachment: fixed;
   height: 560px;
 }
-
 .albums {
-  display: block;
-  padding: 20px 0 20px 160px;
- 
+ width: 380px;
+ height: 310px;
+ border: solid #cacaca 4px;
+ margin: 10px 0 10px 0;
 }
-.albums img {
-  border: solid #cacaca 4px;
-}
-.albums2 {
-  display: block;
-  padding: 20px 10px 20px 70px;
- 
-}
-.albums2 img {
-  border: solid #cacaca 4px;
-}
-
-@media screen and (min-width: 769px) and (max-width: 1025px) {
-.music-page {
-  background: url(../images/arcticmonkeys4.jpg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 400px;
-}
-.albums {
-  display: block;
-  padding: 10px 0 10px 80px;
-}
-.albums img {
-  border: solid #cacaca 4px;
-  width: 410px;
-  height: 350px;
-}
-.albums2 {
-  display: block;
-  padding: 10px 10px 10px 0px; 
-}
-.albums2 img {
-  border: solid #cacaca 4px;
-  width: 410px;
-  height: 350px;
-}
-}
-
-@media screen and (min-width: 577px) and (max-width: 769px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   .music-page {
     background: url(../images/arcticmonkeys4.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 300px;
+    height: 270px;
   }
   .albums {
-    display: block;
-    padding: 10px 0 10px 80px;
-  }
-  .albums img {
+    width: 220px;
+    height: 190px;
     border: solid #cacaca 4px;
-    width: 310px;
-    height: 280px;
-  }
-  .albums2 {
-    display: block;
-    padding: 10px 10px 10px 0px; 
-  }
-  .albums2 img {
-    border: solid #cacaca 4px;
-    width: 310px;
-    height: 280px;
-  }
+    margin: 10px 0 10px 0px;
+   }
 }
-
-
-@media screen and (min-width: 0px) and (max-width: 577px) {
+@media screen and (min-width: 760px) and (max-width: 780px) {
   .music-page {
     background: url(../images/arcticmonkeys4.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 300px;
+    height: 270px;
   }
   .albums {
-    display: inline-block;
-  }
-  .albums img {
+    width: 290px;
+    height: 210px;
     border: solid #cacaca 4px;
-    width: 210px;
-    height: 200px;
-  }
-  .albums2 {
-    display: inline-block;
-    
-  }
-  .albums2 img {
-    border: solid #cacaca 4px;
-    width: 210px;
-    height: 200px;
-  }
+    margin: 10px 0 10px 0px;
+   }
 }
 
 /*
