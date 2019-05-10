@@ -734,8 +734,8 @@ width: 100%;
       .zoom {
         transition: transform .5s; /* Animation */
         margin: 10px;
-        width: 230px;
-        height: 190px;
+        width: 210px;
+        height: 180px;
       }
       .zoom:hover {
         transform: scale(1.1);
