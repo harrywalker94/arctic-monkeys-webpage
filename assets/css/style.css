@@ -328,14 +328,14 @@ color: inherit;
     background: url(../images/arcticmonkeys9.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 250px;
+    max-width: 100%;
   }
   /*--Tour--*/
   .tour {
       background: url(../images/arcticmonkeys7.jpg) no-repeat center;
       background-size: cover;
       background-attachment: fixed;
-      height: 300px;
+      max-width: 100%;
   }
   .tour:hover {
     opacity: 0.6;
@@ -349,7 +349,7 @@ color: inherit;
     background: url(../images/arcticmonkeys6.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 300px;
+    max-width: 100%;
   }
     .gallery:hover {
       opacity: 0.6;
@@ -363,7 +363,7 @@ color: inherit;
     background: url(../images/arcticmonkeys4.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 300px;
+    max-width: 100%;
   }
   .music:hover {
     opacity: 0.6;
@@ -377,7 +377,7 @@ color: inherit;
     background: url(../images/arcticmonkeys2.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 300px;
+    max-width: 100%;
   }
   .news:hover {
     opacity: 0.6;
