@@ -328,14 +328,16 @@ color: inherit;
     background: url(../images/arcticmonkeys9.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    max-width: 100%;
+    height: 250px;
+    width: 100%;
   }
   /*--Tour--*/
   .tour {
       background: url(../images/arcticmonkeys7.jpg) no-repeat center;
       background-size: cover;
       background-attachment: fixed;
-      max-width: 100%;
+      height: 200px;
+      width: 100%;
   }
   .tour:hover {
     opacity: 0.6;
@@ -349,7 +351,8 @@ color: inherit;
     background: url(../images/arcticmonkeys6.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    max-width: 100%;
+    height: 200px;
+    width: 100%;
   }
     .gallery:hover {
       opacity: 0.6;
@@ -363,7 +366,8 @@ color: inherit;
     background: url(../images/arcticmonkeys4.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    max-width: 100%;
+    height: 200px;
+    width: 100%;
   }
   .music:hover {
     opacity: 0.6;
@@ -377,7 +381,8 @@ color: inherit;
     background: url(../images/arcticmonkeys2.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    max-width: 100%;
+    height: 200px;
+    width: 100%;
   }
   .news:hover {
     opacity: 0.6;
@@ -586,7 +591,7 @@ td a {
 td a:hover {
   color: #dcdcdc;
 }
-@media screen and (min-width: 0px) and (max-width: 576px) {
+@media screen and (min-width: 321px) and (max-width: 576px) {
   .tour-page {
     background: url(../images/arcticmonkeys7.jpg) no-repeat center;
     background-size: cover;
@@ -760,7 +765,7 @@ width: 100%;
         transition: transform .5s; /* Animation */
         margin: 10px;
         width: 290px;
-        height: 260px;
+        height: 230px;
       }
       .zoom:hover {
         transform: scale(1.1);
