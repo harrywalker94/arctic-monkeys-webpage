@@ -66,9 +66,11 @@ Content for the news page was taking from various news outlets.
 - Videos were taken from www.youtube.com
 
 ## Acknowledgments
-- For the parallax scrolling effect, I found the tutorial [Here](https://www.w3schools.com/howto/howto_css_parallax.asp).
+- For the parallax scrolling effect, I found the tutorial [here](https://www.w3schools.com/howto/howto_css_parallax.asp).
 
-- To change each font awesome icon colour, I found the tutorial [Here](https://www.w3schools.com/cssref/sel_nth-child.asp).
+- To change each font awesome icon colour, I found the tutorial [here](https://www.w3schools.com/cssref/sel_nth-child.asp).
+
+
 
 
 

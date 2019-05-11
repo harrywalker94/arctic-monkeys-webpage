@@ -586,7 +586,7 @@ td a {
 td a:hover {
   color: #dcdcdc;
 }
-@media screen and (min-width: 321px) and (max-width: 576px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   .tour-page {
     background: url(../images/arcticmonkeys7.jpg) no-repeat center;
     background-size: cover;
@@ -595,7 +595,6 @@ td a:hover {
   }
   .table {
     border: solid #cacaca 4px;
-    width: 180px;
   }
   .video {
     border: solid #cacaca 4px;
@@ -619,10 +618,10 @@ td a:hover {
     font-size: 22px;
   }
   th {
-    text-align: left;
+    text-align: center;
   }
   td {
-    text-align: left;
+    text-align: center;
   }
   td a {
     color: #FFF;
@@ -646,7 +645,6 @@ td a:hover {
   }
   .table {
     border: solid #cacaca 4px;
-    width: 200px;
   }
   .table-data {
     text-transform: uppercase;
