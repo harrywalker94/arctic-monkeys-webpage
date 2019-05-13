@@ -36,7 +36,7 @@ All the social and external links will open in a new tab using 'target="_blank"'
 
 The website was tested across multiple browsers (Chrome, Firefox, Safari) and on mobile devices (iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 plus, iPhone X/XS, Galaxy S5, Pixel 2, Pixel 2 XL, iPad, iPad pro to ensure compatability and responsiveness. 
 
-On iPhone X, the landing page seemed to appear a gap inbetween the main parallax image. To fix this, I had to change the background size from "background-attachment: auto;" to "background-attachment: fixed;".
+On smaller devices, the parallax scrolling effect did not seem to work and the images were far too large for the user to view, therefore I removed it and instead used images which fit the screen on smaller devices.
 
 # Deployment
 The website is hosted using GitHub pages, deployed from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
