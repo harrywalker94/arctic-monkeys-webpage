@@ -98,13 +98,25 @@
   padding-right: 0px;
   padding-left: 0px;
 }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /*--index.html--*/
 /*--Main Band image--*/
 .main {
   background: url(../images/arcticmonkeys9.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.index-image {
+  display: block;
+  width: 100%;
+  height: 230px;
 }
 /*--Main Styling--*/
 .main-header {
@@ -244,7 +256,7 @@ color: inherit;
 .main-header2 {
   font-family: "Geo", sans-serif;
   font-weight: 800;
-  color: black;
+  color: #dcdcdc;
   display: block;
   text-align: center;
   text-transform: uppercase;
@@ -322,7 +334,7 @@ color: inherit;
   -o-transition: all 0.3s ease-in-out;
 }
 
-@media screen and (min-width: 0px) and (max-width: 577px) {
+@media screen and (min-width: 578px) and (max-width: 1025px) {
   /*--Main image--*/
   .main {
     background: url(../images/arcticmonkeys9.jpg) no-repeat center;
@@ -336,7 +348,7 @@ color: inherit;
       background: url(../images/arcticmonkeys7.jpg) no-repeat center;
       background-size: cover;
       background-attachment: fixed;
-      height: 200px;
+      height: 300px;
       width: 100%;
   }
   .tour:hover {
@@ -351,7 +363,7 @@ color: inherit;
     background: url(../images/arcticmonkeys6.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 200px;
+    height: 300px;
     width: 100%;
   }
     .gallery:hover {
@@ -366,7 +378,7 @@ color: inherit;
     background: url(../images/arcticmonkeys4.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 200px;
+    height: 300px;
     width: 100%;
   }
   .music:hover {
@@ -381,7 +393,7 @@ color: inherit;
     background: url(../images/arcticmonkeys2.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 200px;
+    height: 300px;
     width: 100%;
   }
   .news:hover {
